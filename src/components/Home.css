@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto+Mono:wght@200&display=swap');
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-image: 
+    url("../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.home-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(68,49,141, 0.5);
+}
+
+.header-container {
+    width: 50vw;
+    height: 24rem;
+    background-color: rgba(0,0,0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 4px white;
+    text-align: center;
+}
+
+.header-container h1 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+}
+
+.header-container h3 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .home {
+        height: 100%;
+        width: 100vw;
+        background-image: 
+        url("../images/banner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        
+    }
+    
+    .home-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(68,49,141, 0.5);
+        padding-bottom: 10px;
+    }
+    
+    .header-container {
+        margin-top: 10px;
+        width: 85%;
+        height: 100%;
+        background-color: rgba(0,0,0, 0.6);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: solid 4px white;
+        text-align: center;
+    }
+    
+    .header-container h1 {
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 40px;
+    }
+    
+    .header-container h3 {
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;
+    }    
+}
